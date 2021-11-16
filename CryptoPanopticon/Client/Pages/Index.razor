@@ -1,0 +1,53 @@
+﻿@page "/"
+@using System.Collections.Generic
+@using System.Threading.Tasks
+@using CryptoPanopticon.Shared
+
+@inject HttpClient HttpClient
+
+
+<PlotlyChart @bind-Config="config" @bind-Layout="layout" @bind-Data="data" @ref="chart" />
+@*<InputSelect ValueChanged="@((string value) =>  CryptoChanged(value))">
+    <option value="BTC">BTC</option>
+    <option value="EMU">EMU</option>
+</InputSelect>*@
+@code {
+    PlotlyChart chart;
+    Config config = new Config();
+    Layout layout = new Layout(); 
+    // Using of the interface IList is important for the event callback!
+    IList<ITrace> data = new List<ITrace>
+    {
+        new Scatter
+        {
+            Name = "ScatterTrace",
+            Mode = ModeFlag.Lines | ModeFlag.Markers,
+            Y = new List<object>{1,2,3}
+        }
+    };
+    public List<SharedCryptoData> Data { get; set; }
+    public List<string> Currencies { get; set; }
+    public string SelectedCurrency { get; set; }
+    async void CryptoChanged(string curr) {
+        
+        if (!(chart.Data.FirstOrDefault() is Scatter scatter)) return;
+        chart.Data = new List<ITrace>() {
+            new Scatter {
+                Name = "ScatterTrace",
+                Mode = ModeFlag.Lines | ModeFlag.Markers,
+                Y = Data.First(x=>x.Name==curr).Data.Select(x=>(object)x).ToList()
+            }
+        };
+        
+        await chart.Update();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        var data1 = await HttpClient.GetFromJsonAsync<List<SharedCryptoData>>("/crypto");
+        Data = data1;
+        Currencies = data1.Select(x => x.Name).ToList();
+        
+        CryptoChanged("Bitcoin");
+
+    }
+}

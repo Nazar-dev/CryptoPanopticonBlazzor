@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.12" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CryptoPanopticon.Data\CryptoPanopticon.Data.csproj" />
+    <ProjectReference Include="..\..\CryptoPanopticon.Logic\CryptoPanopticon.Logic.csproj" />
+    <ProjectReference Include="..\Client\CryptoPanopticon.Client.csproj" />
+    <ProjectReference Include="..\Shared\CryptoPanopticon.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>

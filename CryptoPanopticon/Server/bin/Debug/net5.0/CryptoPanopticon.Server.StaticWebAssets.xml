@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon\Client\wwwroot\" />
+  <ContentRoot BasePath="_content/Plotly.Blazor" Path="C:\Users\nazik\.nuget\packages\plotly.blazor\2.3.1\build\..\staticwebassets\" />
+</StaticWebAssets>

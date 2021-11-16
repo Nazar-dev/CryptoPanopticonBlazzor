@@ -1,0 +1,15 @@
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\bin\Debug\net5.0\CryptoPanopticon.Data.deps.json
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\bin\Debug\net5.0\CryptoPanopticon.Data.dll
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\bin\Debug\net5.0\ref\CryptoPanopticon.Data.dll
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\bin\Debug\net5.0\CryptoPanopticon.Data.pdb
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\bin\Debug\net5.0\CryptoPanopticon.Logic.dll
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\bin\Debug\net5.0\CryptoPanopticon.Logic.pdb
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.csproj.AssemblyReference.cache
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.AssemblyInfoInputs.cache
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.AssemblyInfo.cs
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.csproj.CoreCompileInputs.cache
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.csproj.CopyComplete
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.dll
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\ref\CryptoPanopticon.Data.dll
+C:\Users\nazik\source\repos\CryptoPanopticon\CryptoPanopticon.Data\obj\Debug\net5.0\CryptoPanopticon.Data.pdb

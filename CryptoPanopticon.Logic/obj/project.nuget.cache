@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eh+MMnbLr7uOoOg/jvcQuW3uqW2hVfHnXTcx3nuv1Ny7wKmOeUJOQB0AIH5dlrgmRMcjZ2YSBYM67gzuK825XQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nazik\\source\\repos\\CryptoPanopticon\\CryptoPanopticon.Logic\\CryptoPanopticon.Logic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nazik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\nazik\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
